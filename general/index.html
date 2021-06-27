@@ -325,8 +325,8 @@
         window.onscroll = function(){scrollEffect()};
         function scrollEffect(){
           var screenHeight = screen.height;
-          if(document.body.scrollTop > (screenHeight-70) || 
-          document.documentElement.scrollTop > (screenHeight-70)){
+          if(document.body.scrollTop > (screenHeight) || 
+          document.documentElement.scrollTop > (screenHeight)){
             document.getElementById('navigation').style.top='0';
           }
           else{
